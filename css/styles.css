@@ -1,6 +1,6 @@
 body {
+    font-family: 'Nunito Sans', sans-serif;
 margin: 0;
-font-family: Nunito Sans, Arial;
 margin: 0;
 padding: 0;
 }
@@ -8,8 +8,9 @@ body * {
     box-sizing: border-box;
 }
 .container {
-    max-width: 1250px;
+    max-width: 1440px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 .button {
     background: #E3B873;
@@ -20,75 +21,153 @@ body * {
     padding: 13px 33px;
     color: white;
     text-transform: uppercase;
+    left: 84.72%;
+right: 8.68%;
+top: 4.68%;
+bottom: 93.92%;
+font-family: "Nunito Sans" ;
+font-style: italic;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+text-align: center;
 }
 .logo {
+    left: 6.39%;
+    right: 81.13%;
+    top: 4.68%;
+    bottom: 94.05%;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
     color: #E3B873;
 } 
+
 .header {
     background-color: black;
 }
 .header-content {
     display: flex;
-    justify-content: space-between;
-    height: 83px;
-    align-items: center;
+        justify-content: space-between;
+        height: 83px;
+        align-items: center;
 }
 .header-navigation {
     list-style: none;
     display: flex;
 }
-
 .header-navigation__item a {
     margin-right: 47px;
     text-decoration: none;
     color: white;
+    left: 31.55%;
+right: 64.42%;
+top: 4.68%;
+bottom: 94.05%;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+font-family: 'Nunito Sans';
+font-style: normal;
 }
-.hero {
-    background-image: url("../images/room.png");
-    height: 707px;
-    padding-top: 194px;
-    position: relative;
-}
-.hero-overlay {
-    content:"" ;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, .7);
-    background-image: url("../maket/images/room.png");
-}
-.hero-container {
-    position: relative;
-    z-index: 1;
-}
-h1 {
-    position: absolute;
-    left: 9.31%;
-    right: 43.74%;
-    top: 35.06%;
-    bottom: 51.65%;
-    font-family: 'Yeseva One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 53px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    background-image: url("\maket\images\hero.jpg");
-}
-p {
-    position: absolute;
-    left: 9.31%;
-    right: 55.69%;
-    top: 50.76%;
-    bottom: 37.97%;
-    font-family: 'Nunito Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 36px;
-    color: #FFFFFF;
-}
+.main-info__container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;    
+    }
+    .main-info__container__content {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background: url("../images/room.png") no-repeat;
+        background-size: cover;
+        height: 707px;
+        padding-top: 194px;
+        position: relative;
+    }
+    .main-info__container__wrapper {
+        height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    }
+    .main-info__container__wrapper::before {
+        content:"" ;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, .7);
+    }
+    .main-info__container__wrapper-title {
+        position: absolute;
+left: 9.31%;
+right: 43.74%;
+top: 35.06%;
+bottom: 51.65%;
 
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 53px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+    }
+    .main-info__container__wrapper-subtitle {
+        position: absolute;
+        left: 9.31%;
+        right: 55.69%;
+        top: 50.76%;
+        bottom: 37.97%;
+        
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 36px;
+        
+        color: #FFFFFF;
+    }
+    .main-info__container__wrapper__button {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        width: 440px;
+        z-index: 5;
+    }
+.main-info__container__wrapper-title__rostov {
+    color: #e3b873;
+}
+.main-info__container__wrapper__button-button1 button {
+    background: #E3B873;
+    font-size: 11px;
+    font-style: italic;
+    color: #fff;
+    box-shadow: 0px 5px 15px rgb(227 184 115 / 20%);
+    border-radius: 2px;
+    border: #E3B873;
+    padding: 20px 33px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.main-info__container__wrapper__button-button2 button {
+    background: transparent;
+    font-size: 11px;
+    font-style: italic;
+    color: #fff;
+    box-shadow: 0px 5px 15px rgb(227 184 115 / 20%);
+    border-radius: 2px;
+    border: #E3B873;
+    padding: 13px 33px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 20px 33px;
+    border: 1px solid #fff;
+}
