@@ -392,7 +392,7 @@ width: 70%;
 height: 70%;
 padding-left: 30%;
 padding-top: 30px;
-padding-bottom: 40px;
+padding-bottom: 80px;
 }
 
 .projects__online-control__video-btn {
@@ -414,8 +414,8 @@ padding: 0 22px;
 
 .online-control__text {
 position: relative;
-padding-top: 35px;
-padding-bottom: 94px;
+padding-top: 20px;
+padding-bottom: 35px;
 font-family: FuturaBookC,sans-serif;
 font-size: 20px;
 line-height: 34px;
@@ -481,10 +481,16 @@ background: #e3b873;
 -webkit-box-shadow: 0 15px 15px rgb(227 184 115 / 15%);
 box-shadow: 0 15px 15px rgb(227 184 115 / 15%);
 font-family: FuturaDemiC,sans-serif;
-font-size: 15px;
 line-height: 26px;
 text-transform: uppercase;
 color: #fff;
+left: 70.81%;
+right: 23.26%;
+top: 63.11%;
+bottom: 34.89%;
+background: #E3B873;
+box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+border-radius: 2px;
 }
 
 .online-control__data {
@@ -500,5 +506,106 @@ width: 1440px;
 margin: 0 auto;
 padding-top: 270px;
 text-align: center;
-margin-bottom: 100px;
+margin-bottom: -88px;
+}
+
+.online-control__data-label {
+position: relative;
+padding-left: 27px;
+cursor: pointer;
+}
+
+.types-of-repair__title {
+padding-bottom: 20px;
+font-family: Yeseva One,serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+text-transform: uppercase;
+color: #181818;
+}
+
+.types-of-repair-wrapper {
+    padding-bottom: 200px;
+}
+
+.types-of-repair__logo {
+    width: 28px;
+    height: 28px;
+    background: url(../images/repair2.svg) 100% 100% no-repeat;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+    margin-left: 650px;
+}
+
+.types-of-repair__prices {
+    display: webkit-box;
+    display: flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 31px 30px 179px;
+    padding-right: 50px;
+}
+
+.types-of-repair__price-list__title {
+    margin-bottom: 20px;
+    font-family: Yeseva One,serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+}
+
+.types-of-repair__price-list {
+    bottom: -27px;
+    left: 73px;
+    width: 100%;
+    max-width: 330px;
+    padding: 20px 30px 4px;
+    text-align: left;
+    background-color: #fff;
+    -webkit-box-shadow: 10px 10px 20px rgb(0 0 0 / 3%);
+    box-shadow: 10px 10px 20px rgb(0 0 0 / 3%);
+    position: absolute;
+}
+
+.types-of-repair__price {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1;
+    flex: 1 1;
+    position: relative;
+    padding-bottom: 187px;
+    text-align: left;
+}
+
+.types-of-repair__price__btn {
+    position: absolute;
+    bottom: 0;
+    left: 118px;
+    padding: 17px 21.5px;
+    border: 0;
+    font-family: Yeseva One,serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #e3b873;
+    -webkit-box-shadow: 5px 5px 10px rgb(227 184 115 / 30%);
+    box-shadow: 5px 5px 10px rgb(227 184 115 / 30%);
+    margin-top: 70px;
+}
+
+.types-of-repair__price__item {
+    font-family: FuturaBookC,sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color: #959595;
 }
