@@ -193,7 +193,7 @@ margin: 0 11px 55px;
 .control-menu__link000 {
 color: #E3B873;
 font-size: 14px;
-line-height: 19px;
+line-height: 57px;
 text-transform: uppercase;
 padding-bottom: 6px;
 margin-right: 60px;
@@ -202,7 +202,7 @@ margin-right: 60px;
 .control-menu__link {
 color: rgba(255, 255, 255, 0.3);
 font-size: 14px;
-line-height: 19px;
+line-height: 57px;
 text-transform: uppercase;
 padding-bottom: 6px;
  margin-right: 60px;
@@ -586,7 +586,7 @@ color: #181818;
 
 .types-of-repair__price__btn {
     position: absolute;
-    bottom: 0;
+    bottom: -45px;
     left: 118px;
     padding: 17px 21.5px;
     border: 0;
@@ -600,12 +600,137 @@ color: #181818;
     background-color: #e3b873;
     -webkit-box-shadow: 5px 5px 10px rgb(227 184 115 / 30%);
     box-shadow: 5px 5px 10px rgb(227 184 115 / 30%);
-    margin-top: 70px;
+    margin-top: 10px;
 }
 
 .types-of-repair__price__item {
-    font-family: FuturaBookC,sans-serif;
-    font-size: 15px;
-    line-height: 25px;
-    color: #959595;
+font-family: FuturaBookC,sans-serif;
+font-size: 15px;
+line-height: 25px;
+color: #959595;
+}
+
+.dom-img {
+position: absolute;
+bottom: -3600px;
+}
+
+.dom-text-item-number {
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    display: inline-flex;
+    justify-content: center;
+    font-family: Yeseva One,serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #e3b873;
+    align-items: center;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+}
+
+.dom-text-item-number-text {
+padding: 17px;
+font-family: FuturaMediumC,serif;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+  margin: 0 -5px;
+}
+
+.dom-text {
+    position: absolute;
+    bottom: -3637px;
+    padding-left: 300px;
+    margin-block-start: 3em;
+}
+
+.form {
+padding-top: 50px;
+position: absolute;
+left: 64.86%;
+right: 0%;
+top: 575.08%;
+}
+
+.form_ {
+display: flex;
+min-width: 508px;
+flex-direction: column;
+margin-bottom: 38px;
+padding: 28px 49px 26px;
+background-color: #000;
+}
+
+.form_title {
+margin-bottom: 39px;
+font-family: FuturaDemiC,serif;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+color: #fff;
+}
+
+.form_wrap {
+margin-bottom: 50px;
+}
+
+.form_wrap_ {
+font-family: FuturaBookC,sans-serif;
+font-size: 15px;
+line-height: 20px;
+color: hsla(0,0%,100%,.5);
+}
+
+.form_wrap_input {
+display: block;
+width: 100%;
+padding: 7px 0;
+font-family: FuturaMediumC,sans-serif;
+font-size: 18px;
+line-height: 25px;
+color: #fff;
+border: 0;
+border-bottom: 1px solid hsla(0,0%,100%,.15);
+background-color: rgba(0,0,0,0);
+}
+
+.form-label {
+position: relative;
+padding-left: 27px;
+margin-bottom: 39px;
+cursor: pointer;
+font-family: FuturaBookC,sans-serif;
+ font-size: 16px;
+line-height: 22px;
+color: #fff;
+}
+
+.form-label::before {
+content: "";
+width: 18px;
+height: 18px;
+position: absolute;
+bottom: 0;
+left: 0;
+display: inline-block;
+background: #e3b873;
+}  
+
+.form-btn {
+align-self: flex-end;
+max-width: 213px;
+padding: 18px 40px;
+font-family: FuturaDemiC,sans-serif;
+font-size: 13px;
+line-height: 18px;
+text-align: center;
+text-transform: uppercase;
+color: #fff;
+border: 0;
+background-color: #e3b873;
+box-shadow: 0 5px 15px rgb(227 184 115 / 15%);
 }
