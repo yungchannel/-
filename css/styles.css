@@ -653,7 +653,7 @@ padding-top: 50px;
 position: absolute;
 left: 64.86%;
 right: 0%;
-top: 575.08%;
+top: 560.08%;
 }
 
 .form_ {
@@ -734,3 +734,129 @@ border: 0;
 background-color: #e3b873;
 box-shadow: 0 5px 15px rgb(227 184 115 / 15%);
 }
+
+.helpsave {
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+    margin-left: 35px;
+}
+
+.helpsaveicons {
+    background: #E3B873;
+    box-shadow: 0px 10px 20px rgb(237 192 120 / 20%);
+    border-radius: 50px;
+    width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.helpsave_text {
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    margin-left: 25px;
+}
+
+.clients-title {
+    color: #181818;
+    text-align: center;
+    margin-top: 400px;
+}
+
+.container {
+max-width: 1440px;
+margin: 0 auto;
+padding: 0 10px;
+}
+
+.clients_icon {
+margin-bottom: 24px;
+margin-left: 640px;
+}
+
+.client_text {
+font-size: 18px;
+line-height: 29px;
+text-align: center;
+color: #363636;
+margin-bottom: 50px;
+}
+
+.clients_ {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients_wrap {
+    width: 376px;
+    height: 428px;
+    box-shadow: 0px 10px 50px rgb(0 0 0 / 4%);
+    padding: 24px 35px 50px 0;
+}
+
+.clients_item {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.clients-icon {
+    margin-bottom: 10px;
+}
+
+.client_text_ {
+    color: #959595;
+    font-size: 13px;
+    line-height: 180%;
+    text-transform: lowercase;
+    padding-left: 20px;
+}
+
+.client-info {
+    width: 218px;
+    background-color: #e3b873;
+    box-shadow: 5px 5px 20px rgb(227 184 115 / 50%);
+    margin-top: 55px;
+}
+
+.client-info-day {
+    display: inline-block;
+    color: white;
+    font-size: 17px;
+    padding: 11px 17px;
+    border-right: 1px solid white;
+    font-family: Yeseva One;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.client-info-size {
+    display: inline-block;
+    color: white;
+    font-size: 17px;
+    padding: 14px 33px;
+    border-right: 1px solid white;
+    font-family: Yeseva One;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.clientimg {
+border-radius: 100px;
+}
+
+.client_title {
+    font-family: Yeseva One;
+    width: 175px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    margin-left: 23px;
+}
+
+
